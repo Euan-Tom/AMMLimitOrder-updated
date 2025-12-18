@@ -61,7 +61,7 @@
     "build:frontend": "vite build --config src/frontend/vite.config.ts",
     "build:backend": "npm run build:backend:validate",
     "build:backend:validate": "node --check src/backend/src/app.js && echo ✓ Backend syntax validation passed",
-    "build": "npm run build:frontend && npm run build:backend",
+    "build": "npm run build:frontend && npm run build:backend"
 
   },
   "devDependencies": {
